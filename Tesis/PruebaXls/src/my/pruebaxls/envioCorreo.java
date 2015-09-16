@@ -61,7 +61,7 @@ public class envioCorreo {
 
             // Se envia el correo.
             Transport t = session.getTransport("smtp");
-            t.connect("informatica@mhochschild.cl", "inf01200");
+            t.connect("informatica@mhochschild.cl", "*****");
             //if(stockVirtual<MinimoPermitido)
             //Enviar correo con alerta
             //else
